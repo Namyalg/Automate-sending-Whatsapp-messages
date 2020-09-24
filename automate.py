@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-chrome_path = r"C:\Users\giril\AppData\Local\Programs\Python\Python36-32\chromedriver.exe"
+chrome_path = "Path to your chrome driver"
 driver = webdriver.Chrome(chrome_path)
 driver.get("https://web.whatsapp.com/")
 time.sleep(15);
